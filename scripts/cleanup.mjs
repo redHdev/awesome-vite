@@ -16,7 +16,7 @@ const REG_REPO = /^https:\/\/github\.com\/([\w\d-]+?)\/([\w\d-]+?)(?:\/|$)/
 
 function toHumanreadableString(seconds) {
   const s = Math.floor(seconds / 1000)
-  const m = Math.floor(s / 60)
+  const m = Math.floor(s / 60)  
   const h = Math.floor(m / 60)
   const d = Math.floor(h / 24)
   const mo = Math.floor(d / 30)
