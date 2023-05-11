@@ -8,7 +8,7 @@ import { Octokit } from '@octokit/core'
 const OUT_DATE = 1000 * 60 * 60 * 24 * 30 * 6 // 6 months
 
 const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN })
-
+  
 const limit = pLimit(5)
 
 const REG_ITEM = /^- \[.*?\]\((.*?)\)/
