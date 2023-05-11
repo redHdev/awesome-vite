@@ -1,6 +1,6 @@
 import fs from 'fs/promises'
 import pLimit from 'p-limit'
-import { Octokit } from '@octokit/core'
+import { Octokit } from '@octokit/core'  
 
 // @antfu: as vite is relative young and active, we could assume plugins that have no activities
 // in last 6 months are outdated. In that case, we remove them from the list. In the future when
